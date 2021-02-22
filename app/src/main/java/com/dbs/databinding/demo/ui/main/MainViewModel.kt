@@ -8,7 +8,6 @@ class MainViewModel : ViewModel() {
 
 
     var mClickedCount = MutableLiveData(0)
-    var mLiveName =  MutableLiveData("default-value")
 
     fun onClickBtn(view: View) {
         // mCLickCount++
